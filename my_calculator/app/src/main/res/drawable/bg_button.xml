@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+            <solid android:color="#FF8C00" />
+
+    </item>
+
+    <!--button focused state background color-->
+    <item android:state_focused="true">
+
+            <solid android:color="#E9967A" />
+
+    </item>
+
+    <!--button pressed state background color-->
+    <item android:state_pressed="true">
+            <solid android:color="#8FBC8F" />
+
+    </item>
+</selector>

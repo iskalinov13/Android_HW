@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/colorLayout"
+    >
+
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/DisplayTextView"
+        android:layout_height="224dp"
+        android:fontFamily="sans-serif"
+        android:gravity="right|top"
+        android:padding="3dp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="0,1,2,3,4"
+        android:background="@color/tableBackground">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+
+            <Button
+                android:id="@+id/buttonC"
+                style="@style/OperationButton"
+                android:clickable="false"
+                android:enabled="true"
+                android:fontFamily="sans-serif-thin"
+                android:includeFontPadding="true"
+                android:onClick="ClearPressed"
+                android:text="C"
+                android:textColor="#953AC6"
+                android:textSize="29sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buttonDivision"
+                style="@style/OperationButton"
+                android:clickable="false"
+                android:enabled="true"
+                android:fontFamily="sans-serif-thin"
+                android:includeFontPadding="true"
+                android:onClick="DivisionPressed"
+                android:text="÷"
+                android:textColor="#953AC6"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buttonMultiplication"
+                style="@style/OperationButton"
+                android:clickable="false"
+                android:enabled="true"
+                android:fontFamily="sans-serif-thin"
+                android:includeFontPadding="true"
+                android:onClick="MultiplicationPressed"
+                android:text="×"
+                android:textColor="#953AC6"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buttonDeletetion"
+                style="@style/OperationButton"
+                android:drawableStart="@drawable/ic_remove"
+                android:onClick="DeletePressed"
+                android:paddingLeft="23dp"
+                android:textColor="#953AC6"
+                android:textSize="30sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/button7"
+                style="@style/NumberButton"
+                android:background="@android:color/white"
+                android:clickable="false"
+                android:enabled="true"
+                android:fontFamily="sans-serif-thin"
+                android:includeFontPadding="true"
+                android:onClick="digitPressed"
+                android:text="7"
+                android:textColor="#5E5961"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button8"
+                style="@style/NumberButton"
+                android:clickable="false"
+                android:enabled="true"
+                android:fontFamily="sans-serif-thin"
+                android:includeFontPadding="true"
+                android:onClick="digitPressed"
+                android:text="8"
+                android:textColor="#5E5961"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button9"
+                style="@style/NumberButton"
+                android:clickable="false"
+                android:enabled="true"
+                android:fontFamily="sans-serif-thin"
+                android:includeFontPadding="true"
+                android:onClick="digitPressed"
+                android:text="9"
+                android:textColor="#5E5961"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+            />
+
+            <Button
+                android:id="@+id/buttonSubtraction"
+                style="@style/OperationButton"
+                android:clickable="false"
+                android:enabled="true"
+                android:fontFamily="sans-serif-thin"
+                android:includeFontPadding="true"
+                android:onClick="SubtractionPressed"
+                android:text="-"
+                android:textColor="#953AC6"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/button4"
+                style="@style/NumberButton"
+                android:clickable="false"
+                android:enabled="true"
+                android:fontFamily="sans-serif-thin"
+                android:includeFontPadding="true"
+                android:onClick="digitPressed"
+                android:text="4"
+                android:textColor="#5E5961"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button5"
+                style="@style/NumberButton"
+                android:clickable="false"
+                android:enabled="true"
+                android:fontFamily="sans-serif-thin"
+                android:includeFontPadding="true"
+                android:onClick="digitPressed"
+                android:text="5"
+                android:textColor="#5E5961"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button6"
+                style="@style/NumberButton"
+                android:clickable="false"
+                android:enabled="true"
+                android:fontFamily="sans-serif-thin"
+                android:includeFontPadding="true"
+                android:onClick="digitPressed"
+                android:text="6"
+                android:textColor="#5E5961"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buttonAddition"
+                style="@style/OperationButton"
+                android:clickable="false"
+                android:enabled="true"
+                android:fontFamily="sans-serif-thin"
+                android:includeFontPadding="true"
+                android:onClick="AdditionPressed"
+                android:text="+"
+                android:textColor="#953AC6"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/button1"
+                style="@style/NumberButton"
+                android:clickable="false"
+                android:enabled="true"
+                android:fontFamily="sans-serif-thin"
+                android:includeFontPadding="true"
+                android:onClick="digitPressed"
+                android:text="1"
+                android:textColor="#5E5961"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button2"
+                style="@style/NumberButton"
+                android:clickable="false"
+                android:enabled="true"
+                android:fontFamily="sans-serif-thin"
+                android:includeFontPadding="true"
+                android:onClick="digitPressed"
+                android:text="2"
+                android:textColor="#5E5961"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button3"
+                style="@style/NumberButton"
+                android:clickable="false"
+                android:enabled="true"
+                android:fontFamily="sans-serif-thin"
+                android:includeFontPadding="true"
+                android:onClick="digitPressed"
+                android:text="3"
+                android:textColor="#5E5961"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buttonParentheses"
+                style="@style/OperationButton"
+                android:clickable="false"
+                android:enabled="true"
+                android:fontFamily="sans-serif-thin"
+                android:includeFontPadding="true"
+                android:onClick="ParenthesisPressed"
+                android:text="()"
+                android:textColor="#953AC6"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/button0"
+                style="@style/NumberButton"
+                android:clickable="false"
+                android:enabled="true"
+                android:fontFamily="sans-serif-thin"
+                android:includeFontPadding="true"
+                android:onClick="digitPressed"
+                android:text="0"
+                android:textColor="#5E5961"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buttonDot"
+                style="@style/NumberButton"
+                android:clickable="false"
+                android:enabled="true"
+                android:fontFamily="sans-serif-thin"
+                android:includeFontPadding="true"
+                android:onClick="DotPressed"
+                android:text="."
+                android:textColor="#5E5961"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buttonMinus"
+                style="@style/NumberButton"
+                android:clickable="false"
+                android:enabled="true"
+                android:fontFamily="sans-serif-thin"
+                android:includeFontPadding="true"
+                android:onClick="PlusMinusPressed"
+                android:text="+/-"
+                android:textColor="#5E5961"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buttonEquality"
+                style="@style/OperationButton"
+                android:clickable="false"
+                android:enabled="true"
+                android:fontFamily="sans-serif-thin"
+                android:includeFontPadding="true"
+                android:onClick="EqualPressed"
+                android:text="="
+                android:textColor="#16C368"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

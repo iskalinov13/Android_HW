@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Калькулятор</string>
+    <string name="length_out_hundred">=Максимальное число знаков: 100</string>
+    <string name="addition">+</string>
+</resources>
