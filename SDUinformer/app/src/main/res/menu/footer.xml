@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/call"
+        android:icon="@drawable/icon1"
+        android:title=""/>
+    <item
+        android:id="@+id/facebook"
+        android:icon="@drawable/icon2"
+        android:title=""/>
+    <item
+        android:id="@+id/instagram"
+        android:icon="@drawable/icon3"
+        android:title=""/>
+    <item
+        android:id="@+id/whatsapp"
+        android:icon="@drawable/icon4"
+        android:title=""/>
+    <item
+        android:id="@+id/twitter"
+        android:icon="@drawable/icon5"
+        android:title=""/>
+</menu>

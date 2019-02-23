@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="600dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Academics"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+        android:background="@drawable/gradient">
+        <RelativeLayout
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <TextView
+                android:id="@+id/textAcademics"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gallery"
+                android:fontFamily="@font/coustard"
+                android:textSize="34sp"
+                android:textColor="@color/white"
+                android:layout_centerInParent="true"
+
+                />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8"
+            android:orientation="vertical">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewpager"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent" />
+
+            <steelkiwi.com.library.view.IndicatorView
+                android:id="@+id/indicatorView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:iv_bar_color="@color/black"
+                app:iv_corner_radius="4dp"
+                app:iv_idle_color="#999999"
+                app:iv_select_color="#666666"
+                app:iv_size="40dp"
+                app:iv_text_color="@color/colorPrimary"
+                app:iv_text_size="12sp"
+                app:iv_action="hung_down"
+                app:iv_item_amount="3"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

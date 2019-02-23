@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SDUinformer</string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+    <string name="SD">Suleyman Demirel</string>
+    <string name="U">University</string>
+    <string name="maxnew"><u>I just immediately got the sense of this is where I am meant to be.</u></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bullted_list">
+         <li>You can complete requirements for all of Saint Louis University’s nearly 100 degree programs at SLU-Madrid, including nursing, engineering and pre-med options.</li>
+        \n\n <li>SLU’s Madrid Campus features newly renovated, historically protected buildings and is located in a safe, quiet neighborhood within minutes of the city center.</li>
+        \n\n <li>IStudents studying at SLU-Madrid most often live with Spanish host families, although other options are available.</li>
+        \n\n <li>Many academic courses at SLU-Madrid incorporate study trips to destinations in Spain and Europe.SLU-Madrid’s Office of Student Life also sponsors day and weekend excursions. </li>
+    </string>
+
+</resources>

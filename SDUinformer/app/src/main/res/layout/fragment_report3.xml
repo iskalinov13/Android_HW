@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Report3"
+    android:id="@+id/child_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="432dp">
+
+        <ImageView
+            android:id="@+id/report3main"
+            android:layout_width="match_parent"
+            android:layout_height="432dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="0dp"
+            android:src="@drawable/report3main" />
+
+        <TextView
+            android:id="@+id/textonreport3"
+            style="@android:style/Widget.DeviceDefault.TextView.SpinnerItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:accessibilityLiveRegion="none"
+            android:ellipsize="middle"
+            android:fadingEdge="none"
+            android:fontFamily="@font/coustard"
+            android:gravity="center"
+            android:paddingTop="300dp"
+            android:text="SSuleyman Demirel University Virtual Tour"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@android:style/Widget.DeviceDefault.Light.TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/coustard"
+            android:text="Join our student tour guides on an interactive virtual tour of Saint Louis University. See 360-degree views of some of the University’s most iconic spaces; step inside academic buildings, residence halls, dining and athletic facilities; and listen as Billiken tour guides share insights about what makes SLU such a unique place to live and learn"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            style="@android:style/Widget.DeviceDefault.Light.TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/coustard"
+            android:text="What You’ll See in SLU’s Virtual Tour Innovative Spaces for Learning and Collaboration"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/crimson_text"
+            android:text="Many of the academic programs at SLU rank among the best in the county, and our virtual tour guides will take you inside SLU’s academic buildings, from the business school to an engineering lab to a medical classroom and mock courtroom. You’ll also be able to visit Pius Memorial XII Library — home to SLU’s brand new Academic Tech Commons.
+
+\n\nStudents from nearly 80 countries study at SLU, and our tour will take you inside of the Center for Global Citizenship and INTO SLU Center, two spaces on campus dedicated to promoting cross-cultural awareness and collaboration."
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+        <TextView
+        style="@android:style/Widget.DeviceDefault.Light.TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/coustard"
+        android:text="Life on Campus and Beyond"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/crimson_text"
+            android:text="Take a peek inside a residence hall room, step into Grand Dining Hall, and look around SLU's breathtaking St. Francis Xavier College Church. Check out Chaifetz Arena, home of some of SLU’s Division I sports teams, and the Simon Recreation Center, the heart of students’ active lifestyle at SLU.
+
+\n\nThe virtual tour will even give you a glimpse at life off campus, in the city of St. Louis. Take in 360-degree views of Forest Park — voted best city park in America and larger than New York City’s Central Park — as well as Busch Stadium, home to the 11-time World Series champion St. Louis Cardinals baseball team."
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            style="@android:style/Widget.DeviceDefault.Light.TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/coustard"
+            android:text="Student house"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="315px"
+                android:src="@drawable/studenthouse"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/crimson_text"
+                android:text="The student house of Suleyman Demirel University offers students not only accommodation and meals on the territory of the Smart Campus during their studies, but also the opportunity to develop and strengthen their social positions. The administration of the dormitory together with students conduct cognitive conversations with each other, thereby increasing their personal qualities. Relations between the administration and students are built on mutual understanding, friendship and harmony. Our main priority is a student. Our responsibilities include creating the optimal comfortable conditions for our students to stay, proper daily meals, constant psychological support, as well as the promotion of sports and outdoor activities.
+
+\n\nStudents from all over Kazakhstan, near and far abroad live and develop in SDU student house. This means that the development of patriotism, as well as the enhancement of cultural awareness through communication with representatives of other countries, improve friendly ties with other peoples.
+
+\n\nOur main mission is to create a friendly, understanding each other, living in unity of youth, which will be drawn to knowledge. This factor will play a decisive role in the formation of people who will develop Kazakhstan at the international level in all sectors."
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+            <ImageView
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="315px"
+                android:src="@drawable/studenthouse2"/>
+            <TextView
+                style="@android:style/Widget.DeviceDefault.Light.TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/coustard"
+                android:text="Why Students House?"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/crimson_text"
+                android:text="The student house is located on the territory of the Smart-campus in the immediate vicinity of the university building (30 meters). For students and guests of the university next to the student house is a football field with artificial surface, volleyball and basketball courts, as well as tennis courts for tennis. 24-hour security is available.
+
+\n\nMoreover, for VIP guests in the block 'A' there is a VIP hotel with all amenities.
+
+\n\nThe student house is designed for 1000 people in 4 blocks - 2 for boys and 2 for girls. Each block has 4 floors with 20 rooms on each.."
+                android:textColor="@color/black"
+                android:textSize="15sp"/>
+
+            <LinearLayout
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_marginRight="5dp"
+                    android:layout_width="335px"
+                    android:layout_height="300px"
+                    android:src="@drawable/sdudorm1"/>
+                <ImageView
+                    android:layout_marginRight="5dp"
+                    android:layout_width="335px"
+                    android:layout_height="300px"
+                    android:src="@drawable/sdudorm2"/>
+                <ImageView
+                    android:layout_marginRight="5dp"
+                    android:layout_width="335px"
+                    android:layout_height="300px"
+                    android:src="@drawable/sdudorm3"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_marginRight="5dp"
+                    android:layout_width="335px"
+                    android:layout_height="300px"
+                    android:src="@drawable/sdudorm4"/>
+                <ImageView
+                    android:layout_marginRight="5dp"
+                    android:layout_width="335px"
+                    android:layout_height="300px"
+                    android:src="@drawable/sdudorm5"/>
+                <ImageView
+                    android:layout_marginRight="5dp"
+                    android:layout_width="335px"
+                    android:layout_height="300px"
+                    android:src="@drawable/sdudorm6"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+

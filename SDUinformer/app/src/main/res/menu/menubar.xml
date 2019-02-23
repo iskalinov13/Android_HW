@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/about" android:title="About" android:icon="@drawable/ic_about" />
+    <item android:id="@+id/academics" android:title="Academics" android:icon="@drawable/ic_academics"/>
+    <item android:id="@+id/lifeatsdu" android:title="Life at SDU" android:icon="@drawable/ic_life"/>
+    <item android:id="@+id/inoffice" android:title="News and Events" android:icon="@drawable/ic_internationaloffice"/>
+
+</menu>

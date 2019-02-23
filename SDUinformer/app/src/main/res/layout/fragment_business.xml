@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Business"
+    android:id="@+id/child_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="432dp">
+
+        <ImageView
+            android:id="@+id/report2main"
+            android:layout_width="match_parent"
+            android:layout_height="432dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="0dp"
+            android:src="@drawable/report2" />
+
+        <TextView
+            android:id="@+id/textonreport2"
+            style="@android:style/Widget.DeviceDefault.TextView.SpinnerItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:accessibilityLiveRegion="none"
+            android:ellipsize="middle"
+            android:fadingEdge="none"
+            android:fontFamily="@font/coustard"
+            android:gravity="center"
+            android:paddingTop="300dp"
+            android:text="School of Business"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:padding="10dp">
+
+        <TextView
+            style="@android:style/Widget.DeviceDefault.Light.TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/crimson_text"
+            android:text="Your life in Business begins here."
+            android:textColor="@color/colorPrimary"
+            android:textSize="25sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/crimson_text"
+            android:text="Unlike many other Kazakhstan universities, we don’t just have a study abroad program (although you can choose from 50+ traditional study abroad options while at SDU) — we’ve had an international campus in Kaskelen, for more than 20 years.\n\nThat means Suleyman Demilrel students, no matter what their undergraduate major, are able to have a study abroad experience while staying on track to graduate on time at approximately the same cost as studying on our SDU campus.
+        \n\nIn this way, hundreds of SDUdents each year broaden their worldview and increase their employment prospects after graduation, all without sacrificing access to vital student support services, English language instruction or SDU’s world-class faculty.\n\nSee what SDU offers that no one else can."
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/crimson_text"
+            android:text="Academic Areas"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:layout_margin="20dp"
+            android:id="@+id/upcomingevent3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/coustard"
+                android:text="BACHELOR'S DEGREE"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15sp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/coustard"
+                    android:text="Computer Science and Software"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"/>
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="3dp"
+                    android:layout_gravity="center"
+                    android:background="@color/colorPrimaryDark" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/coustard"
+                    android:text="International Relationships"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"/>
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="3dp"
+                    android:layout_gravity="center"
+                    android:background="@color/colorPrimaryDark" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/coustard"
+                    android:text="International Law"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"/>
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="3dp"
+                    android:layout_gravity="center"
+                    android:background="@color/colorPrimaryDark" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/coustard"
+                    android:text="History"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"/>
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="3dp"
+                    android:layout_gravity="center"
+                    android:background="@color/colorPrimaryDark" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/coustard"
+                    android:text="Journalism"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"/>
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="3dp"
+                    android:layout_gravity="center"
+                    android:background="@color/colorPrimaryDark" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/coustard"
+                android:text="MASTER'S DEGREE"
+                android:layout_gravity="center_horizontal"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/coustard"
+                    android:text="Jurisprudence"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"/>
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="3dp"
+                    android:layout_gravity="center"
+                    android:background="@color/colorPrimaryDark" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
+
