@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "187954604945",
+    "firebase_url": "https://twit-613e0.firebaseio.com",
+    "project_id": "twit-613e0",
+    "storage_bucket": "twit-613e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:187954604945:android:e2ab323d070b57a0",
+        "android_client_info": {
+          "package_name": "com.example.lasttwitter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "187954604945-0hda7cu7h4dh5mfdlav5so3h7piress4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDW6qrfe3795XjoFk2ysOLA0oxNy6AzqLc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "187954604945-0hda7cu7h4dh5mfdlav5so3h7piress4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

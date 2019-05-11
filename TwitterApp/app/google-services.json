@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "105129910728",
+    "firebase_url": "https://twitterapp-ea167.firebaseio.com",
+    "project_id": "twitterapp-ea167",
+    "storage_bucket": "twitterapp-ea167.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105129910728:android:083e8020c4d93152",
+        "android_client_info": {
+          "package_name": "com.example.twitterapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "105129910728-58agpgbjhpmn2bqubo41295u6smmq0e7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMvZ1qJevqKo5Cmr5Lw_FGs-PZOH_GcCg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "105129910728-58agpgbjhpmn2bqubo41295u6smmq0e7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
